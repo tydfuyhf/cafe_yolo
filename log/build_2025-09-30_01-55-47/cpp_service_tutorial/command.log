@@ -1,0 +1,4 @@
+Invoking command in '/home/park/dev_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/park/dev_ws/build/cpp_service_tutorial -- -j22 -l22
+Invoked command in '/home/park/dev_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/park/dev_ws/build/cpp_service_tutorial -- -j22 -l22
+Invoking command in '/home/park/dev_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/park/dev_ws/build/cpp_service_tutorial
+Invoked command in '/home/park/dev_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/park/dev_ws/build/cpp_service_tutorial

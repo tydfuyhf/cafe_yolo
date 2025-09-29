@@ -1,0 +1,45 @@
+[0.787s] Invoking command in '/home/park/dev_ws/src/ros2_yolo/yolo_ros': CMAKE_PREFIX_PATH=/home/park/dev_ws/install/yolo_msgs:/home/park/turtlebot3_ws/install/turtlebot3_simulations:/home/park/turtlebot3_ws/install/turtlebot3_gazebo:/home/park/turtlebot3_ws/install/turtlebot3_fake_node:/home/park/dev_ws/install/yolo_bringup:/home/park/dev_ws/install/two_wheeled_robot:/home/park/dev_ws/install/my_test_pkg:/home/park/dev_ws/install/cpp_service_tutorial PYTHONPATH=/home/park/dev_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/park/dev_ws/build/yolo_ros/build install --record /home/park/dev_ws/build/yolo_ros/install.log --single-version-externally-managed install_data
+[1.057s] running egg_info
+[1.074s] creating ../../../build/yolo_ros/yolo_ros.egg-info
+[1.075s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[1.075s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[1.075s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[1.076s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[1.076s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[1.076s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.112s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.113s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.114s] running build
+[1.114s] running build_py
+[1.114s] creating /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.114s] copying yolo_ros/detect_3d_node.py -> /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.114s] copying yolo_ros/yolo_node.py -> /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.114s] copying yolo_ros/debug_node.py -> /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.115s] copying yolo_ros/tracking_node.py -> /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.115s] copying yolo_ros/__init__.py -> /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.115s] running install
+[1.120s] running install_lib
+[1.138s] creating /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.138s] copying /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros/detect_3d_node.py -> /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.138s] copying /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.138s] copying /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros/debug_node.py -> /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.138s] copying /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros/tracking_node.py -> /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.138s] copying /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros/__init__.py -> /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.139s] byte-compiling /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[1.141s] byte-compiling /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-310.pyc
+[1.143s] byte-compiling /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/debug_node.py to debug_node.cpython-310.pyc
+[1.145s] byte-compiling /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[1.146s] byte-compiling /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/__init__.py to __init__.cpython-310.pyc
+[1.146s] running install_data
+[1.147s] creating /home/park/dev_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[1.147s] copying resource/yolo_ros -> /home/park/dev_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[1.147s] copying package.xml -> /home/park/dev_ws/install/yolo_ros/share/yolo_ros
+[1.147s] running install_egg_info
+[1.166s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[1.166s] running install_scripts
+[1.310s] Installing debug_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[1.310s] Installing detect_3d_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[1.310s] Installing tracking_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[1.310s] Installing yolo_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[1.311s] writing list of installed files to '/home/park/dev_ws/build/yolo_ros/install.log'
+[1.341s] Invoked command in '/home/park/dev_ws/src/ros2_yolo/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/park/dev_ws/install/yolo_msgs:/home/park/turtlebot3_ws/install/turtlebot3_simulations:/home/park/turtlebot3_ws/install/turtlebot3_gazebo:/home/park/turtlebot3_ws/install/turtlebot3_fake_node:/home/park/dev_ws/install/yolo_bringup:/home/park/dev_ws/install/two_wheeled_robot:/home/park/dev_ws/install/my_test_pkg:/home/park/dev_ws/install/cpp_service_tutorial PYTHONPATH=/home/park/dev_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/park/dev_ws/build/yolo_ros/build install --record /home/park/dev_ws/build/yolo_ros/install.log --single-version-externally-managed install_data

@@ -1,0 +1,51 @@
+[0.017s] Invoking command in '/home/park/dev_ws/build/my_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/turtlebot3_ws/install/my_map_utils:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake /home/park/dev_ws/src/my_test_pkg -DCMAKE_INSTALL_PREFIX=/home/park/dev_ws/install/my_test_pkg
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.138s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.344s] -- Detecting CXX compiler ABI info - done
+[0.353s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.353s] -- Detecting CXX compile features
+[0.354s] -- Detecting CXX compile features - done
+[0.357s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.759s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.866s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.954s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.954s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/park/dev_ws/src/my_test_pkg/include>
+[0.955s] -- Configured cppcheck exclude dirs and/or files: 
+[0.955s] -- Added test 'lint_cmake' to check CMake code style
+[0.956s] -- Added test 'uncrustify' to check C / C++ code style
+[0.956s] -- Configured uncrustify additional arguments: 
+[0.957s] -- Added test 'xmllint' to check XML markup files
+[0.959s] -- Configuring done
+[0.963s] -- Generating done
+[0.965s] -- Build files have been written to: /home/park/dev_ws/build/my_test_pkg
+[0.972s] Invoked command in '/home/park/dev_ws/build/my_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/turtlebot3_ws/install/my_map_utils:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake /home/park/dev_ws/src/my_test_pkg -DCMAKE_INSTALL_PREFIX=/home/park/dev_ws/install/my_test_pkg
+[0.975s] Invoking command in '/home/park/dev_ws/build/my_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/turtlebot3_ws/install/my_map_utils:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --build /home/park/dev_ws/build/my_test_pkg -- -j22 -l22
+[1.027s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.059s] [100%] [32m[1mLinking CXX executable my_node[0m
+[1.109s] [100%] Built target my_node
+[1.123s] Invoked command in '/home/park/dev_ws/build/my_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/turtlebot3_ws/install/my_map_utils:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --build /home/park/dev_ws/build/my_test_pkg -- -j22 -l22
+[1.124s] Invoking command in '/home/park/dev_ws/build/my_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/turtlebot3_ws/install/my_map_utils:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --install /home/park/dev_ws/build/my_test_pkg
+[1.132s] -- Install configuration: ""
+[1.132s] -- Installing: /home/park/dev_ws/install/my_test_pkg/lib/my_test_pkg/my_node
+[1.132s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/ament_index/resource_index/package_run_dependencies/my_test_pkg
+[1.133s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/ament_index/resource_index/parent_prefix_path/my_test_pkg
+[1.133s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/environment/ament_prefix_path.sh
+[1.133s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/environment/ament_prefix_path.dsv
+[1.133s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/environment/path.sh
+[1.133s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/environment/path.dsv
+[1.133s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/local_setup.bash
+[1.133s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/local_setup.sh
+[1.133s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/local_setup.zsh
+[1.133s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/local_setup.dsv
+[1.133s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/package.dsv
+[1.134s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/ament_index/resource_index/packages/my_test_pkg
+[1.134s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/cmake/my_test_pkgConfig.cmake
+[1.134s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/cmake/my_test_pkgConfig-version.cmake
+[1.134s] -- Installing: /home/park/dev_ws/install/my_test_pkg/share/my_test_pkg/package.xml
+[1.137s] Invoked command in '/home/park/dev_ws/build/my_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/turtlebot3_ws/install/my_map_utils:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --install /home/park/dev_ws/build/my_test_pkg

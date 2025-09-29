@@ -1,0 +1,24 @@
+[0.786s] Invoking command in '/home/park/dev_ws/src/ros2_yolo/yolo_ros': CMAKE_PREFIX_PATH=/home/park/dev_ws/install/yolo_msgs:/home/park/turtlebot3_ws/install/turtlebot3_simulations:/home/park/turtlebot3_ws/install/turtlebot3_gazebo:/home/park/turtlebot3_ws/install/turtlebot3_fake_node:/home/park/dev_ws/install/yolo_bringup:/home/park/dev_ws/install/two_wheeled_robot:/home/park/dev_ws/install/my_test_pkg:/home/park/dev_ws/install/cpp_service_tutorial PYTHONPATH=/home/park/dev_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/park/dev_ws/build/yolo_ros/build install --record /home/park/dev_ws/build/yolo_ros/install.log --single-version-externally-managed install_data
+[1.049s] running egg_info
+[1.065s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[1.066s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[1.066s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[1.066s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[1.066s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[1.102s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.103s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.104s] running build
+[1.104s] running build_py
+[1.104s] running install
+[1.109s] running install_lib
+[1.127s] running install_data
+[1.127s] running install_egg_info
+[1.145s] removing '/home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[1.145s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[1.146s] running install_scripts
+[1.292s] Installing debug_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[1.292s] Installing detect_3d_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[1.292s] Installing tracking_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[1.292s] Installing yolo_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[1.292s] writing list of installed files to '/home/park/dev_ws/build/yolo_ros/install.log'
+[1.320s] Invoked command in '/home/park/dev_ws/src/ros2_yolo/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/park/dev_ws/install/yolo_msgs:/home/park/turtlebot3_ws/install/turtlebot3_simulations:/home/park/turtlebot3_ws/install/turtlebot3_gazebo:/home/park/turtlebot3_ws/install/turtlebot3_fake_node:/home/park/dev_ws/install/yolo_bringup:/home/park/dev_ws/install/two_wheeled_robot:/home/park/dev_ws/install/my_test_pkg:/home/park/dev_ws/install/cpp_service_tutorial PYTHONPATH=/home/park/dev_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/park/dev_ws/build/yolo_ros/build install --record /home/park/dev_ws/build/yolo_ros/install.log --single-version-externally-managed install_data

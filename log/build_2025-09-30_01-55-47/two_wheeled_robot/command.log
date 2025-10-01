@@ -1,4 +1,0 @@
-Invoking command in '/home/park/dev_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/park/dev_ws/build/two_wheeled_robot -- -j22 -l22
-Invoked command in '/home/park/dev_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/park/dev_ws/build/two_wheeled_robot -- -j22 -l22
-Invoking command in '/home/park/dev_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/park/dev_ws/build/two_wheeled_robot
-Invoked command in '/home/park/dev_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/park/dev_ws/build/two_wheeled_robot

@@ -1,4 +1,1 @@
-# 2D position in pixel coordinates
-
-yolo_msgs/Point2D position
-float64 theta
+/home/park/dev_ws/src/yolo_msgs/msg/Pose2D.msg

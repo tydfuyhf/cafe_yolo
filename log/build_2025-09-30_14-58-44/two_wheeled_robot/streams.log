@@ -1,0 +1,96 @@
+[0.051s] Invoking command in '/home/park/dev_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake /home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/park/dev_ws/install/two_wheeled_robot
+[0.113s] -- The C compiler identification is GNU 11.4.0
+[0.199s] -- The CXX compiler identification is GNU 11.4.0
+[0.210s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.317s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.425s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.426s] -- Detecting CXX compile features
+[0.426s] -- Detecting CXX compile features - done
+[0.438s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.916s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.985s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.011s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.100s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.126s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.126s] -- Configured cppcheck include dirs: 
+[1.126s] -- Configured cppcheck exclude dirs and/or files: 
+[1.138s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.138s] -- Configured cpplint exclude dirs and/or files: 
+[1.140s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.142s] -- Added test 'lint_cmake' to check CMake code style
+[1.144s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.152s] -- Added test 'uncrustify' to check C / C++ code style
+[1.152s] -- Configured uncrustify additional arguments: 
+[1.153s] -- Added test 'xmllint' to check XML markup files
+[1.156s] -- Configuring done
+[1.157s] -- Generating done
+[1.159s] -- Build files have been written to: /home/park/dev_ws/build/two_wheeled_robot
+[1.169s] Invoked command in '/home/park/dev_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake /home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/park/dev_ws/install/two_wheeled_robot
+[1.171s] Invoking command in '/home/park/dev_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --build /home/park/dev_ws/build/two_wheeled_robot -- -j22 -l22
+[1.211s] Invoked command in '/home/park/dev_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --build /home/park/dev_ws/build/two_wheeled_robot -- -j22 -l22
+[1.213s] Invoking command in '/home/park/dev_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --install /home/park/dev_ws/build/two_wheeled_robot
+[1.225s] -- Install configuration: ""
+[1.226s] -- Execute custom install script
+[1.227s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch/cafe_turtlebot3.launch.py
+[1.237s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch/empty_cafe.launch.py
+[1.250s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch/load_world_into_gazebo.launch.py
+[1.263s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch/two_wheeled_robot_rviz.launch.py
+[1.274s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/media/frames/frames.gv
+[1.286s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/media/frames/frames.pdf
+[1.299s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/media/node_graph/rviz_launch_rosgraph.png
+[1.311s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/cafe/walk.dae
+[1.322s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/robot_base.stl
+[1.330s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_10.jpg
+[1.339s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_2.jpg
+[1.348s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_21.jpg
+[1.357s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_22.jpg
+[1.364s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_23.jpg
+[1.372s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_24.jpg
+[1.381s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_25.jpg
+[1.393s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_26.jpg
+[1.402s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_28.jpg
+[1.411s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_29.jpg
+[1.424s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_30.jpg
+[1.435s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_31.jpg
+[1.447s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_34.jpg
+[1.457s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_35.jpg
+[1.466s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/materials/textures/__auto_37.jpg
+[1.477s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/meshes/cafe.dae
+[1.487s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/model.config
+[1.499s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe/model.sdf
+[1.509s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe_table/materials/textures/Maple.jpg
+[1.520s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe_table/materials/textures/Wood_Floor_Dark.jpg
+[1.532s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe_table/meshes/cafe_table.dae
+[1.544s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe_table/model-1_4.sdf
+[1.553s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe_table/model.config
+[1.564s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/cafe_table/model.sdf
+[1.573s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/ground_plane/model-1_2.sdf
+[1.582s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/ground_plane/model-1_3.sdf
+[1.593s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/ground_plane/model-1_4.sdf
+[1.603s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/ground_plane/model.config
+[1.616s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/models/ground_plane/model.sdf
+[1.629s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/rviz/rviz_basic_settings.rviz
+[1.639s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/two_wheeled_robot.urdf
+[1.651s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/worlds/cafe.world
+[1.664s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/worlds/cafe_static.world
+[1.676s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/ament_index/resource_index/package_run_dependencies/two_wheeled_robot
+[1.687s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/ament_index/resource_index/parent_prefix_path/two_wheeled_robot
+[1.696s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.sh
+[1.705s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.dsv
+[1.715s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.sh
+[1.726s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.dsv
+[1.736s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.bash
+[1.746s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.sh
+[1.756s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.zsh
+[1.764s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.dsv
+[1.774s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv
+[1.785s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/ament_index/resource_index/packages/two_wheeled_robot
+[1.795s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig.cmake
+[1.807s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig-version.cmake
+[1.817s] -- Symlinking: /home/park/dev_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.xml
+[1.831s] Invoked command in '/home/park/dev_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --install /home/park/dev_ws/build/two_wheeled_robot

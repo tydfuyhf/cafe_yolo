@@ -1,4 +1,1 @@
-# 2D size in pixel
-
-float64 x
-float64 y
+/home/park/dev_ws/src/yolo_msgs/msg/Vector2.msg

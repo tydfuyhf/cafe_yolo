@@ -1,0 +1,46 @@
+[0.881s] Invoking command in '/home/park/dev_ws/build/yolo_ros': CMAKE_PREFIX_PATH=/home/park/dev_ws/install/yolo_msgs:/home/park/dev_ws/install/yolo_bringup:/home/park/dev_ws/install/two_wheeled_robot:/home/park/dev_ws/install/my_test_pkg:/home/park/dev_ws/install/cpp_service_tutorial PYTHONPATH=/home/park/dev_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/park/dev_ws/build/yolo_ros/build
+[1.218s] running develop
+[1.471s] Removing /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo-ros.egg-link (link to .)
+[1.500s] Invoked command in '/home/park/dev_ws/build/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/park/dev_ws/install/yolo_msgs:/home/park/dev_ws/install/yolo_bringup:/home/park/dev_ws/install/two_wheeled_robot:/home/park/dev_ws/install/my_test_pkg:/home/park/dev_ws/install/cpp_service_tutorial PYTHONPATH=/home/park/dev_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/park/dev_ws/build/yolo_ros/build
+[1.502s] Invoking command in '/home/park/dev_ws/src/yolo_ros': CMAKE_PREFIX_PATH=/home/park/dev_ws/install/yolo_msgs:/home/park/dev_ws/install/yolo_bringup:/home/park/dev_ws/install/two_wheeled_robot:/home/park/dev_ws/install/my_test_pkg:/home/park/dev_ws/install/cpp_service_tutorial PYTHONPATH=/home/park/dev_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_ros build --build-base /home/park/dev_ws/build/yolo_ros/build install --record /home/park/dev_ws/build/yolo_ros/install.log --single-version-externally-managed install_data --force
+[1.771s] running egg_info
+[1.788s] writing ../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[1.789s] writing dependency_links to ../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[1.789s] writing entry points to ../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[1.789s] writing requirements to ../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[1.789s] writing top-level names to ../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[1.834s] reading manifest file '../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.836s] writing manifest file '../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.836s] running build
+[1.836s] running build_py
+[1.836s] creating /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.836s] copying yolo_ros/detect_3d_node.py -> /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.837s] copying yolo_ros/yolo_node.py -> /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.837s] copying yolo_ros/debug_node.py -> /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.838s] copying yolo_ros/tracking_node.py -> /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.838s] copying yolo_ros/__init__.py -> /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros
+[1.838s] running install
+[1.843s] running install_lib
+[1.861s] creating /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.861s] copying /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros/detect_3d_node.py -> /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.861s] copying /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.861s] copying /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros/debug_node.py -> /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.861s] copying /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros/tracking_node.py -> /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.861s] copying /home/park/dev_ws/build/yolo_ros/build/lib/yolo_ros/__init__.py -> /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.861s] byte-compiling /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[1.864s] byte-compiling /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-310.pyc
+[1.866s] byte-compiling /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/debug_node.py to debug_node.cpython-310.pyc
+[1.868s] byte-compiling /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[1.869s] byte-compiling /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/__init__.py to __init__.cpython-310.pyc
+[1.869s] running install_data
+[1.870s] copying resource/yolo_ros -> /home/park/dev_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[1.870s] copying package.xml -> /home/park/dev_ws/install/yolo_ros/share/yolo_ros
+[1.870s] running install_egg_info
+[1.888s] Copying ../../build/yolo_ros/yolo_ros.egg-info to /home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[1.889s] running install_scripts
+[2.034s] Installing debug_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[2.035s] Installing detect_3d_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[2.035s] Installing tracking_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[2.035s] Installing yolo_node script to /home/park/dev_ws/install/yolo_ros/lib/yolo_ros
+[2.035s] writing list of installed files to '/home/park/dev_ws/build/yolo_ros/install.log'
+[2.065s] Invoked command in '/home/park/dev_ws/src/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/park/dev_ws/install/yolo_msgs:/home/park/dev_ws/install/yolo_bringup:/home/park/dev_ws/install/two_wheeled_robot:/home/park/dev_ws/install/my_test_pkg:/home/park/dev_ws/install/cpp_service_tutorial PYTHONPATH=/home/park/dev_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/dev_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_ros build --build-base /home/park/dev_ws/build/yolo_ros/build install --record /home/park/dev_ws/build/yolo_ros/install.log --single-version-externally-managed install_data --force

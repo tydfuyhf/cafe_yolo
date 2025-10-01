@@ -1,4 +1,1 @@
-# 2D point in pixel coordinates
-
-float64 x
-float64 y
+/home/park/dev_ws/src/yolo_msgs/msg/Point2D.msg

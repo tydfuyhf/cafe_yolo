@@ -43,77 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot" TYPE DIRECTORY FILES
-    "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/config"
-    "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/launch"
-    "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/maps"
-    "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/media"
-    "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/meshes"
-    "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/models"
-    "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/params"
-    "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/rviz"
-    "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/urdf"
-    "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/worlds"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/two_wheeled_robot")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/two_wheeled_robot")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot/environment" TYPE FILE FILES "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot/environment" TYPE FILE FILES "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot" TYPE FILE FILES "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot" TYPE FILE FILES "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot" TYPE FILE FILES "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot" TYPE FILE FILES "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot" TYPE FILE FILES "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_index/share/ament_index/resource_index/packages/two_wheeled_robot")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot/cmake" TYPE FILE FILES
-    "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_core/two_wheeled_robotConfig.cmake"
-    "/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_core/two_wheeled_robotConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/two_wheeled_robot" TYPE FILE FILES "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/package.xml")
+  include("/home/park/dev_ws/build/two_wheeled_robot/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

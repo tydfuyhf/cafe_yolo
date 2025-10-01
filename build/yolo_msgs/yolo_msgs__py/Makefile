@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/park/dev_ws/src/ros2_yolo/yolo_msgs
+CMAKE_SOURCE_DIR = /home/park/dev_ws/src/yolo_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/park/dev_ws/build/yolo_msgs

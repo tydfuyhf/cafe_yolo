@@ -1,3 +1,0 @@
-[0mCMake Error: The source directory "/home/park/dev_ws/src/ros2_yolo/yolo_msgs" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.[0m
-gmake: *** [Makefile:3339: cmake_check_build_system] 오류 1

@@ -1,0 +1,1 @@
+Invoking command in '/home/park/dev_ws/build/my_test_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/park/dev_ws/src/my_test_pkg -DCMAKE_INSTALL_PREFIX=/home/park/dev_ws/install/my_test_pkg

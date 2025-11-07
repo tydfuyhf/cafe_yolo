@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="default">
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <name>turtlebot3_waffle</name>
+      <uri>model://turtlebot3_waffle</uri> 
+      <pose>-2.0 0.0 0.1 0 0 1.57</pose> 
+    </include>
+
+    <actor name="actor1">
+      <pose>-2 3 1.25 0 0 -1.57</pose>
+      <skin>
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin name="actor1_plugin" filename="libActorPlugin.so">
+        <script>
+          <loop>true</loop>
+          <trajectory id="0" type="walking">
+            <waypoint>
+              <time>0</time>
+              <pose>1 0 1.25 0 0 -1.57</pose>
+            </waypoint>
+            <waypoint>
+              <time>5</time>
+              <pose>-2 -3 1.25 0 0 -3.14</pose>
+            </waypoint>
+            <waypoint>
+              <time>10</time>
+              <pose>-5 0 1.25 0 0 1.57</pose>
+            </waypoint>
+            <waypoint>
+              <time>15</time>
+              <pose>-2 3 1.25 0 0 0</pose>
+            </waypoint>
+          </trajectory>
+        </script>
+      </plugin>
+    </actor>
+    
+    <actor name="actor2">
+      <pose>-2 -3 1.25 0 0 1.57</pose>
+      <skin>
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin name="actor2_plugin" filename="libActorPlugin.so">
+        <script>
+          <loop>true</loop>
+          <trajectory id="1" type="walking">
+            <waypoint>
+              <time>0</time>
+              <pose>-5 0 1.25 0 0 1.57</pose>
+            </waypoint>
+            <waypoint>
+              <time>5</time>
+              <pose>-2 3 1.25 0 0 0</pose>
+            </waypoint>
+            <waypoint>
+              <time>10</time>
+              <pose>1 0 1.25 0 0 -1.57</pose>
+            </waypoint>
+            <waypoint>
+              <time>15</time>
+              <pose>-2 -3 1.25 0 0 -3.14</pose>
+            </waypoint>
+          </trajectory>
+        </script>
+      </plugin>
+    </actor>
+
+    <scene>
+      <shadows>false</shadows>
+    </scene>
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>0.319654 -0.235002 9.29441 0 1.5138 0.009599</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+
+  </world>
+</sdf>

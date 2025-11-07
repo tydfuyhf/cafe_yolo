@@ -1,4 +1,0 @@
-[0.034s] Invoking command in '/home/park/dev_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/park/dev_ws/src/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/park/dev_ws/install/turtlebot3_description
-[0.044s] [0mCMake Error: The source directory "/home/park/dev_ws/src/turtlebot3_description" does not appear to contain CMakeLists.txt.
-[0.044s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.048s] Invoked command in '/home/park/dev_ws/build/turtlebot3_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/park/dev_ws/src/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/park/dev_ws/install/turtlebot3_description

@@ -25,7 +25,7 @@ find_package(ament_cmake REQUIRED)
 # Executables and libraries defined with add_executable() or add_library()
 # have their own install rules. This is left as is from your original file.
 install(
-  DIRECTORY config launch maps media meshes models params rviz urdf worlds
+  DIRECTORY launch worlds models weights
   DESTINATION share/${PROJECT_NAME}
 )
 

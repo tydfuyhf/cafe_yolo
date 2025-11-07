@@ -1,1 +1,0 @@
-/home/park/dev_ws/build/my_test_pkg/ament_cmake_core/my_test_pkgConfig-version.cmake

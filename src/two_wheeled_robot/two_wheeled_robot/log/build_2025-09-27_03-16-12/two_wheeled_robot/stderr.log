@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find
-  "/home/park/dev_ws/src/two_wheeled_robot/two_wheeled_robot/params": No such
-  file or directory.
-
-[0m

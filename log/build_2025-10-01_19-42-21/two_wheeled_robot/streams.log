@@ -1,1 +1,0 @@
-[0.034s] Invoking command in '/home/park/dev_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/park/dev_ws/install/yolo_ros:/opt/ros/humble /usr/bin/cmake --build /home/park/dev_ws/build/two_wheeled_robot -- -j22 -l22

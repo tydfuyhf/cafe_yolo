@@ -1,1 +1,0 @@
-/home/park/dev_ws/src/yolo_msgs/msg/Pose2D.msg

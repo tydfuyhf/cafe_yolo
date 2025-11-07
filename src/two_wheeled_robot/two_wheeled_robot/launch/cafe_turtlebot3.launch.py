@@ -1,3 +1,4 @@
+# cafe_turtlebot3.launch.py
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
@@ -21,8 +22,13 @@ def generate_launch_description():
     world_file_name = 'cafe.world'
     world_path = os.path.join(pkg_share, 'worlds', world_file_name)
 
+    # 💡 [추가] YOLO 가중치 파일 경로 설정
+    weights_file_name = 'yolov8m.pt'
+    weights_path = os.path.join(pkg_share, 'weights', weights_file_name)
+
     # 로봇 모델 경로 설정 (GAZEBO_MODEL_PATH 환경 변수)
-    custom_models_path = os.path.join(pkg_share, 'two_wheeled_robot', 'models')
+    # [수정] custom_models_path 경로 수정 (이전 코드에 'two_wheeled_robot'이 중복되어 있었음)
+    custom_models_path = os.path.join(pkg_share, 'models') 
     turtlebot3_models_path = os.path.join(pkg_tb3_gazebo, 'models')
     
     if 'GAZEBO_MODEL_PATH' in os.environ:
@@ -68,7 +74,9 @@ def generate_launch_description():
         output='screen', # <--- 로그 메시지를 터미널에 띄우기 위한 설정
         parameters=[{
             'use_sim_time': use_sim_time,
-            # yolo_ros 노드의 파라미터가 있다면 여기에 추가하세요 (예: 가중치 경로, 토픽 리매핑 등)
+            'device': 'cpu',
+            # 💡 [수정] 가중치 파일 경로 파라미터로 전달
+            'model': weights_path  
         }],
     )
 

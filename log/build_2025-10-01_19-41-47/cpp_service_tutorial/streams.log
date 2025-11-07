@@ -1,9 +1,0 @@
-[0.036s] Invoking command in '/home/park/dev_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/park/dev_ws/src/cpp_service_tutorial -DCMAKE_INSTALL_PREFIX=/home/park/dev_ws/install/cpp_service_tutorial
-[0.064s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
-[0.217s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
-[0.231s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
-[0.312s] -- Added test 'lint_cmake' to check CMake code style
-[0.313s] -- Added test 'xmllint' to check XML markup files
-[0.313s] -- Configuring done
-[0.318s] -- Generating done
-[0.319s] -- Build files have been written to: /home/park/dev_ws/build/cpp_service_tutorial

@@ -1,1 +1,0 @@
-/home/park/dev_ws/build/yolo_msgs/rosidl_generator_py/yolo_msgs/srv/_set_classes_s.c

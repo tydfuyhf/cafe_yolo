@@ -71,7 +71,7 @@ def generate_launch_description():
             'device': 'cpu',
             'threshold': 0.5,
         }],
-        remappings=[('image_raw', '/camera/rgb/image_raw')],
+        remappings=[('image_raw', '/camera/image_raw')],
     )
 
     return LaunchDescription([

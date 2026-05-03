@@ -10,14 +10,18 @@ Gazebo 카페 환경에서 걸어다니는 사람(actor)을 TurtleBot3의 RGB �
 
 ## 시스템 구조
 
-```mermaid
-graph LR
-    subgraph Gazebo
-        A[cafe.world<br/>actor × 2] -->|걷는 사람| B[TurtleBot3 Waffle<br/>RGB Camera]
-    end
-
-    B -->|/camera/image_raw| C[yolo_detector<br/>yolo_node]
-    C -->|/yolo_detector/detections<br/>DetectionArray| D[구독 노드]
+```
+[ Gazebo cafe.world ]
+  actor × 2 (걷는 사람)
+  TurtleBot3 Waffle
+       |
+       | /camera/image_raw (sensor_msgs/Image)
+       v
+[ yolo_detector (yolo_node) ]
+       |
+       | /yolo_detector/detections (yolo_msgs/DetectionArray)
+       v
+[ 구독 노드 ]
 ```
 
 | 토픽 | 타입 | 방향 |

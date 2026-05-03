@@ -3,16 +3,21 @@
 <package format="3">
   <name>two_wheeled_robot</name>
   <version>1.0.0</version>
-  <description>A two-wheeled mobile robot with an IMU sensor and LIDAR</description>
-  <maintainer email="automaticaddison@todo.todo">AutomaticAddison</maintainer>
-  <license>MIT License</license>
-  
+  <description>TurtleBot3 Waffle simulation with YOLOv8-based person detection in a Gazebo cafe world</description>
+  <maintainer email="park1234567890987654321@gmail.com">parksanghyun</maintainer>
+  <license>AGPL-3.0</license>
+
   <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>gazebo_ros</exec_depend>
   <exec_depend>turtlebot3_description</exec_depend>
-  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>turtlebot3_gazebo</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>rviz</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
   <exec_depend>xacro</exec_depend>
+  <exec_depend>yolo_ros</exec_depend>
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 

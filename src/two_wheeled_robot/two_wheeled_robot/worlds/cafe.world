@@ -72,11 +72,6 @@
       <uri>model://cafe_table</uri>
     </include>
 
-    <include>
-      <name>turtlebot3_waffle</name>
-      <uri>model://turtlebot3_waffle</uri> 
-      <pose>-2.0 0.0 0.1 0 0 1.57</pose> 
-    </include>
 
         <actor name="actor1">
       <pose>0 1 1.25 0 0 0</pose>
